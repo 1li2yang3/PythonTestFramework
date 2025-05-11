@@ -51,5 +51,5 @@ uv run run.py
 ```
 
 测试结果：
-(images/image2.png)
-(images/image1.png)
+[(images/image2.png)]
+[(images/image1.png)]
