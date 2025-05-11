@@ -1,0 +1,24 @@
+[32mINFO    [0m common.recordlog:conftest.py:20 -------------接口测试开始--------------
+[32mINFO    [0m common.recordlog:sendrequest.py:135 接口名称：提交订单
+[32mINFO    [0m common.recordlog:sendrequest.py:136 请求地址：http://127.0.0.1:8787/coupApply/cms/placeAnOrder
+[32mINFO    [0m common.recordlog:sendrequest.py:137 请求方式：post
+[32mINFO    [0m common.recordlog:sendrequest.py:138 测试用例名称：详情页面选择规格，提交订单
+[32mINFO    [0m common.recordlog:sendrequest.py:139 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+[32mINFO    [0m common.recordlog:sendrequest.py:140 Cookie：None
+[32mINFO    [0m common.recordlog:sendrequest.py:147 请求参数：{'json': {'goods_id': '18382788819', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': 127839112, 'price': '128', 'freight_insurance': '0.00', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': 13800000000, 'address': '北京市海淀区西三环北路74号院4栋3单元1008'}}}
+[32mINFO    [0m common.recordlog:sendrequest.py:108 接口返回信息：{
+  "crateTime": "2025-05-11 21:34:02",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u63d0\u4ea4\u8ba2\u5355\u6210\u529f",
+  "orderNumber": "874865186309966511659",
+  "translate_language": "zh-CN",
+  "userId": "5935182356417206471"
+}
+
+[32mINFO    [0m common.recordlog:apiutil_business.py:171 json提取到参数：{'orderNumber': '874865186309966511659'}
+[32mINFO    [0m common.recordlog:apiutil_business.py:171 json提取到参数：{'userId': '5935182356417206471'}
+[32mINFO    [0m common.recordlog:assertions.py:170 yaml文件预期结果：[{'eq': {'message': '提交订单成功'}}]
+[32mINFO    [0m common.recordlog:assertions.py:68 相等断言成功：接口实际结果：{'message': '提交订单成功'}，等于预期结果：{'message': '提交订单成功'}
+[32mINFO    [0m common.recordlog:assertions.py:198 测试成功
+[32mINFO    [0m common.recordlog:conftest.py:22 -------------接口测试结束--------------

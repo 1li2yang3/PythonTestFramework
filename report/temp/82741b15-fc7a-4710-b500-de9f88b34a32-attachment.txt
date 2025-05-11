@@ -1,0 +1,20 @@
+[32mINFO    [0m common.recordlog:conftest.py:20 -------------接口测试开始--------------
+[32mINFO    [0m common.recordlog:sendrequest.py:135 接口名称：订单支付
+[32mINFO    [0m common.recordlog:sendrequest.py:136 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+[32mINFO    [0m common.recordlog:sendrequest.py:137 请求方式：post
+[32mINFO    [0m common.recordlog:sendrequest.py:138 测试用例名称：订单支付
+[32mINFO    [0m common.recordlog:sendrequest.py:139 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+[32mINFO    [0m common.recordlog:sendrequest.py:140 Cookie：None
+[32mINFO    [0m common.recordlog:sendrequest.py:147 请求参数：{'json': {'orderNumber': '874865186309966511659', 'userId': '5935182356417206471', 'timeStamp': '1746970442'}}
+[32mINFO    [0m common.recordlog:sendrequest.py:108 接口返回信息：{
+  "createTime": "2025-05-11 21:34:02",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u8ba2\u5355\u652f\u4ed8\u6210\u529f",
+  "translate_language": "zh-CN"
+}
+
+[32mINFO    [0m common.recordlog:assertions.py:170 yaml文件预期结果：[{'eq': {'message': '订单支付成功'}}]
+[32mINFO    [0m common.recordlog:assertions.py:68 相等断言成功：接口实际结果：{'message': '订单支付成功'}，等于预期结果：{'message': '订单支付成功'}
+[32mINFO    [0m common.recordlog:assertions.py:198 测试成功
+[32mINFO    [0m common.recordlog:conftest.py:22 -------------接口测试结束--------------

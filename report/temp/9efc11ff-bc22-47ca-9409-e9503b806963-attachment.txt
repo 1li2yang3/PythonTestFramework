@@ -1,0 +1,19 @@
+[32mINFO    [0m common.recordlog:conftest.py:20 -------------接口测试开始--------------
+[32mINFO    [0m common.recordlog:sendrequest.py:135 接口名称：用户查询
+[32mINFO    [0m common.recordlog:sendrequest.py:136 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+[32mINFO    [0m common.recordlog:sendrequest.py:137 请求方式：POST
+[32mINFO    [0m common.recordlog:sendrequest.py:138 测试用例名称：有效查询用户
+[32mINFO    [0m common.recordlog:sendrequest.py:139 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+[32mINFO    [0m common.recordlog:sendrequest.py:140 Cookie：None
+[32mINFO    [0m common.recordlog:sendrequest.py:144 请求参数：{'data': {'user_id': 123839387391912}}
+[32mINFO    [0m common.recordlog:sendrequest.py:108 接口返回信息：{
+  "error_code": null,
+  "msg": "\u67e5\u8be2\u6210\u529f!",
+  "msg_code": 200
+}
+
+[32mINFO    [0m common.recordlog:assertions.py:170 yaml文件预期结果：[{'contains': {'msg': '查询成功'}}, {'eq': {'msg_code': 200}}]
+[32mINFO    [0m common.recordlog:assertions.py:45 字符串包含断言成功：预期结果【查询成功】,实际结果【查询成功!】
+[32mINFO    [0m common.recordlog:assertions.py:68 相等断言成功：接口实际结果：{'msg_code': 200}，等于预期结果：{'msg_code': 200}
+[32mINFO    [0m common.recordlog:assertions.py:198 测试成功
+[32mINFO    [0m common.recordlog:conftest.py:22 -------------接口测试结束--------------

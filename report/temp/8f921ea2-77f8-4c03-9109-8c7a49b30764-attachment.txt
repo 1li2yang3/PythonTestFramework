@@ -1,0 +1,21 @@
+[32mINFO    [0m common.recordlog:conftest.py:20 -------------接口测试开始--------------
+[32mINFO    [0m common.recordlog:sendrequest.py:135 接口名称：商品详情
+[32mINFO    [0m common.recordlog:sendrequest.py:136 请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+[32mINFO    [0m common.recordlog:sendrequest.py:137 请求方式：post
+[32mINFO    [0m common.recordlog:sendrequest.py:138 测试用例名称：获取商品详情
+[32mINFO    [0m common.recordlog:sendrequest.py:139 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+[32mINFO    [0m common.recordlog:sendrequest.py:140 Cookie：None
+[32mINFO    [0m common.recordlog:sendrequest.py:147 请求参数：{'json': {'pro_id': '18382788819,33809635011,56996760797,82193785267,74190550836', 'page': 1, 'size': 20}}
+[32mINFO    [0m common.recordlog:sendrequest.py:108 接口返回信息：{
+  "error": "\u4e0d\u5b58\u5728\u8be5\u5546\u54c1",
+  "error_code": "4000",
+  "goodsId": "",
+  "item": {},
+  "secache_date": "2025-05-11 21:34:02",
+  "translate_language": "zh-CN"
+}
+
+[32mINFO    [0m common.recordlog:assertions.py:170 yaml文件预期结果：[{'contains': {'error_code': '4000'}}]
+[32mINFO    [0m common.recordlog:assertions.py:45 字符串包含断言成功：预期结果【4000】,实际结果【4000】
+[32mINFO    [0m common.recordlog:assertions.py:198 测试成功
+[32mINFO    [0m common.recordlog:conftest.py:22 -------------接口测试结束--------------
