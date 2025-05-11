@@ -51,5 +51,5 @@ uv run run.py
 ```
 
 测试结果：
-[(images/image2.png)]
-[(images/image1.png)]
+![终端展示](images/image2.png)
+![网页展示](images/image1.png)
